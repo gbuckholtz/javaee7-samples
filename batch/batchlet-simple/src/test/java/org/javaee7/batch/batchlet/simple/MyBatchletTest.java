@@ -7,6 +7,9 @@ import static org.jboss.shrinkwrap.api.ShrinkWrap.create;
 import static org.jboss.shrinkwrap.api.asset.EmptyAsset.INSTANCE;
 import static org.junit.Assert.assertEquals;
 
+import org.jboss.arquillian.persistence.CreateSchema;
+
+import org.javaee7.batch.batchlet.simple.MyBatchlet;
 import java.util.Properties;
 
 import javax.batch.operations.JobOperator;
